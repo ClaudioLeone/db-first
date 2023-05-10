@@ -1,0 +1,28 @@
+AUTOMOBILI
+
+_________________________________________________________________
+
+id - INT - PRIMARY_KEY - UNSIGNED - AUTO_INCREMENT - DEFAULT(1)
+immagine - VARCHAR(max: 255)
+marca - VARCHAR(max: 50)
+modello - VARCHAR(max: 50)
+colore - VARCHAR(max: 20)
+alimentazione - VARCHAR(max: 50)
+data immatricolazione - DATESTAMP(GG/MM/AAAA)
+nr posti - TINYINT - UNSIGNED - DEFAULT(4)
+chilometri - INT - UNSIGNED - DEFAULT(5000)
+trasmissione - VARCHAR(max: 50)
+cambio - VARCHAR(max: 50)
+nr di telaio - VARCHAR(max: 50)
+targa - VARCHAR(max: 10)
+allestimento - VARCHAR(max: 50)
+cavalli (CV) - SMALLINT - UNSIGNED
+potenza (cv) - SMALLINT - UNSIGNED
+emissioni CO2(g/km) - SMALLINT - UNSIGNED
+garanzia - VARCHAR(max: 50)
+consumi(l/100km) - FLOAT(3, 1)
+prezzo(TOT) - DECIMAL(14, 2) - UNSIGNED - DEFAULT(0)
+prezzo(mensile) - DECIMAL(14, 2) - UNSIGNED - DEFAULT(0)
+sconto(%) - TINYINT - DEFAULT(0)
+
+_________________________________________________________________
