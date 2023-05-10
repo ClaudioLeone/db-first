@@ -23,6 +23,6 @@ garanzia - VARCHAR(max: 50)
 consumi(l/100km) - FLOAT(3, 1)
 prezzo(TOT) - DECIMAL(14, 2) - UNSIGNED - DEFAULT(0)
 prezzo(mensile) - DECIMAL(14, 2) - UNSIGNED - DEFAULT(0)
-sconto(%) - TINYINT - DEFAULT(0)
+sconto(%) - TINYINT(max: 100) - DEFAULT(0)
 
 _________________________________________________________________
